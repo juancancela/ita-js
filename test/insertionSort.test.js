@@ -1,5 +1,5 @@
 var assert = require("assert");
-var insertionSort = require('../insertionSort').insertionSort;
+var insertionSort = require('../algorithms/insertionSort').insertionSort;
 
 describe('Insertion Sort', function(){
   describe('#insertionSort(unsortedArray)', function(){

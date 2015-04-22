@@ -1,0 +1,27 @@
+{
+  "name": "ita-js",
+  "version": "1.0.0",
+  "description": "javacript implementations of ITA algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juancancela/ita-js.git"
+  },
+  "keywords": [
+    "ita",
+    "algorithms",
+    "javascript"
+  ],
+  "author": "Juan Carlos Cancela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juancancela/ita-js/issues"
+  },
+  "homepage": "https://github.com/juancancela/ita-js",
+  "dependencies": {
+    "mocha": "^2.2.4"
+  }
+}

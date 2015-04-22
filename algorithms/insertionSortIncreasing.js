@@ -2,8 +2,9 @@
  * Implementation of an insertion sort algorithm
  * @param unsortedArray an unsorted array
  * @returns {*} a sorted array
+ * !Note: returned array is in increased order (n,n+1,n+2...)
  */
-function insertionSort(unsortedArray){
+function insertionSortIncreasing(unsortedArray){
   for(var i = 1; i < unsortedArray.length; i++){
     var rightValue = unsortedArray[i];
     for(var j = i - 1; j >= 0; j--){
@@ -20,5 +21,5 @@ function insertionSort(unsortedArray){
 }
 
 module.exports = {
-  insertionSort : insertionSort
+  insertionSortIncreasing : insertionSortIncreasing
 };

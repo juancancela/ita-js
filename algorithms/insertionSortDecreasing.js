@@ -1,5 +1,5 @@
 /**
- * Implementation of an insertion sort algorithm
+ * Implementation of an insertion sort algorithm within Ө(n^2)
  * @param unsortedArray an unsorted array
  * @returns {*} a sorted array
  * !Note: returned array is in decreased order (n, n-1, n-2, ...)

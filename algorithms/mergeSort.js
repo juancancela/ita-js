@@ -1,5 +1,5 @@
 /**
- * Given an unsorted n-size array, sort it using merge sort
+ * Given an unsorted n-size array, sort it using merge sort within Ө(n * lg n)
  * @param unsortedArray an unsorted array
  */
 function mergeSort(unsortedArray){
